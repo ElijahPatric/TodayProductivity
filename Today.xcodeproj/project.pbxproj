@@ -14,11 +14,11 @@
 		7CB0771F270FAA1C0042FB15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB0771E270FAA1C0042FB15 /* SceneDelegate.swift */; };
 		7CB07721270FAA1C0042FB15 /* ReminderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB07720270FAA1C0042FB15 /* ReminderListViewController.swift */; };
 		7CB07724270FAA1C0042FB15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CB07722270FAA1C0042FB15 /* Main.storyboard */; };
-		7CB07726270FAA1F0042FB15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB07725270FAA1F0042FB15 /* Assets.xcassets */; };
 		7CB07729270FAA1F0042FB15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CB07727270FAA1F0042FB15 /* LaunchScreen.storyboard */; };
 		7CB07732270FAF0E0042FB15 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB07731270FAF0E0042FB15 /* Reminder.swift */; };
 		842B30B328DA714D000A4FB1 /* Date+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842B30B228DA714D000A4FB1 /* Date+Today.swift */; };
 		842B30B828DA733E000A4FB1 /* ReminderListViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842B30B728DA733E000A4FB1 /* ReminderListViewController+DataSource.swift */; };
+		848F4DE528DD10EF00C12BCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848F4DE428DD10EF00C12BCB /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,12 +30,12 @@
 		7CB0771E270FAA1C0042FB15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7CB07720270FAA1C0042FB15 /* ReminderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListViewController.swift; sourceTree = "<group>"; };
 		7CB07723270FAA1C0042FB15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7CB07725270FAA1F0042FB15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CB07728270FAA1F0042FB15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CB0772A270FAA1F0042FB15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CB07731270FAF0E0042FB15 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		842B30B228DA714D000A4FB1 /* Date+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Today.swift"; sourceTree = "<group>"; };
 		842B30B728DA733E000A4FB1 /* ReminderListViewController+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+DataSource.swift"; sourceTree = "<group>"; };
+		848F4DE428DD10EF00C12BCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,12 +69,12 @@
 		7CB0771B270FAA1C0042FB15 /* Today */ = {
 			isa = PBXGroup;
 			children = (
+				848F4DE428DD10EF00C12BCB /* Assets.xcassets */,
 				842B30B428DA72D7000A4FB1 /* ListViewController */,
 				7CB07730270FAEE10042FB15 /* Models */,
 				7CB0771C270FAA1C0042FB15 /* AppDelegate.swift */,
 				7CB0771E270FAA1C0042FB15 /* SceneDelegate.swift */,
 				7CB07722270FAA1C0042FB15 /* Main.storyboard */,
-				7CB07725270FAA1F0042FB15 /* Assets.xcassets */,
 				7CB07727270FAA1F0042FB15 /* LaunchScreen.storyboard */,
 				7CB0772A270FAA1F0042FB15 /* Info.plist */,
 				7C46B00927BEEEEF00AA93B4 /* Configuration */,
@@ -162,8 +162,8 @@
 				7C46B00E27BEF38500AA93B4 /* README.md in Resources */,
 				7CB07729270FAA1F0042FB15 /* LaunchScreen.storyboard in Resources */,
 				7C46B00A27BEEEEF00AA93B4 /* Configuration in Resources */,
-				7CB07726270FAA1F0042FB15 /* Assets.xcassets in Resources */,
 				7CB07724270FAA1C0042FB15 /* Main.storyboard in Resources */,
+				848F4DE528DD10EF00C12BCB /* Assets.xcassets in Resources */,
 				7C46B00C27BEEF1800AA93B4 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
